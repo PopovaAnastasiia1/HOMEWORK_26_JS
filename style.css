@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: 1160px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.image_wrapper{
+    overflow: hidden;
+    width: 600px;
+    margin: auto;
+    margin-top: 66px;
+    
+}
+
+.image_block{
+    display: flex;
+}
+
+.image_block img{
+    min-width: 600px;
+    height: 400px;
+}
+
+.transfom-animate {
+    transition: 1s all ease-in-out;
+  }
+
+  .prev,
+  .next{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    background-color: rgb(96, 241, 149);
+    cursor: pointer;
+  }
